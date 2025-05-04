@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B6E9A1662DC7AF2500C46518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E9A14D2DC7AF2300C46518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E9A1542DC7AF2300C46518;
+			remoteInfo = TokenLogin;
+		};
+		B6E9A1702DC7AF2500C46518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E9A14D2DC7AF2300C46518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E9A1542DC7AF2300C46518;
+			remoteInfo = TokenLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6E9A1552DC7AF2300C46518 /* TokenLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E9A1652DC7AF2500C46518 /* TokenLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E9A16F2DC7AF2500C46518 /* TokenLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B6E9A1572DC7AF2300C46518 /* TokenLogin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TokenLogin;
+			sourceTree = "<group>";
+		};
+		B6E9A1682DC7AF2500C46518 /* TokenLoginTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TokenLoginTests;
+			sourceTree = "<group>";
+		};
+		B6E9A1722DC7AF2500C46518 /* TokenLoginUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TokenLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6E9A1522DC7AF2300C46518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E9A1622DC7AF2500C46518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E9A16C2DC7AF2500C46518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6E9A14C2DC7AF2300C46518 = {
+			isa = PBXGroup;
+			children = (
+				B6E9A1572DC7AF2300C46518 /* TokenLogin */,
+				B6E9A1682DC7AF2500C46518 /* TokenLoginTests */,
+				B6E9A1722DC7AF2500C46518 /* TokenLoginUITests */,
+				B6E9A1562DC7AF2300C46518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6E9A1562DC7AF2300C46518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E9A1552DC7AF2300C46518 /* TokenLogin.app */,
+				B6E9A1652DC7AF2500C46518 /* TokenLoginTests.xctest */,
+				B6E9A16F2DC7AF2500C46518 /* TokenLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6E9A1542DC7AF2300C46518 /* TokenLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E9A1792DC7AF2500C46518 /* Build configuration list for PBXNativeTarget "TokenLogin" */;
+			buildPhases = (
+				B6E9A1512DC7AF2300C46518 /* Sources */,
+				B6E9A1522DC7AF2300C46518 /* Frameworks */,
+				B6E9A1532DC7AF2300C46518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B6E9A1572DC7AF2300C46518 /* TokenLogin */,
+			);
+			name = TokenLogin;
+			packageProductDependencies = (
+			);
+			productName = TokenLogin;
+			productReference = B6E9A1552DC7AF2300C46518 /* TokenLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6E9A1642DC7AF2500C46518 /* TokenLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E9A17C2DC7AF2500C46518 /* Build configuration list for PBXNativeTarget "TokenLoginTests" */;
+			buildPhases = (
+				B6E9A1612DC7AF2500C46518 /* Sources */,
+				B6E9A1622DC7AF2500C46518 /* Frameworks */,
+				B6E9A1632DC7AF2500C46518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E9A1672DC7AF2500C46518 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6E9A1682DC7AF2500C46518 /* TokenLoginTests */,
+			);
+			name = TokenLoginTests;
+			packageProductDependencies = (
+			);
+			productName = TokenLoginTests;
+			productReference = B6E9A1652DC7AF2500C46518 /* TokenLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6E9A16E2DC7AF2500C46518 /* TokenLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E9A17F2DC7AF2500C46518 /* Build configuration list for PBXNativeTarget "TokenLoginUITests" */;
+			buildPhases = (
+				B6E9A16B2DC7AF2500C46518 /* Sources */,
+				B6E9A16C2DC7AF2500C46518 /* Frameworks */,
+				B6E9A16D2DC7AF2500C46518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E9A1712DC7AF2500C46518 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6E9A1722DC7AF2500C46518 /* TokenLoginUITests */,
+			);
+			name = TokenLoginUITests;
+			packageProductDependencies = (
+			);
+			productName = TokenLoginUITests;
+			productReference = B6E9A16F2DC7AF2500C46518 /* TokenLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6E9A14D2DC7AF2300C46518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B6E9A1542DC7AF2300C46518 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B6E9A1642DC7AF2500C46518 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B6E9A1542DC7AF2300C46518;
+					};
+					B6E9A16E2DC7AF2500C46518 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B6E9A1542DC7AF2300C46518;
+					};
+				};
+			};
+			buildConfigurationList = B6E9A1502DC7AF2300C46518 /* Build configuration list for PBXProject "TokenLogin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6E9A14C2DC7AF2300C46518;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B6E9A1562DC7AF2300C46518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E9A1542DC7AF2300C46518 /* TokenLogin */,
+				B6E9A1642DC7AF2500C46518 /* TokenLoginTests */,
+				B6E9A16E2DC7AF2500C46518 /* TokenLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E9A1532DC7AF2300C46518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E9A1632DC7AF2500C46518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E9A16D2DC7AF2500C46518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E9A1512DC7AF2300C46518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E9A1612DC7AF2500C46518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E9A16B2DC7AF2500C46518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6E9A1672DC7AF2500C46518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E9A1542DC7AF2300C46518 /* TokenLogin */;
+			targetProxy = B6E9A1662DC7AF2500C46518 /* PBXContainerItemProxy */;
+		};
+		B6E9A1712DC7AF2500C46518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E9A1542DC7AF2300C46518 /* TokenLogin */;
+			targetProxy = B6E9A1702DC7AF2500C46518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6E9A1772DC7AF2500C46518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6E9A1782DC7AF2500C46518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6E9A17A2DC7AF2500C46518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = X64H234X86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adi.mizrahi.TokenLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6E9A17B2DC7AF2500C46518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = X64H234X86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adi.mizrahi.TokenLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6E9A17D2DC7AF2500C46518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X64H234X86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adi.mizrahi.TokenLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokenLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokenLogin";
+			};
+			name = Debug;
+		};
+		B6E9A17E2DC7AF2500C46518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X64H234X86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adi.mizrahi.TokenLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokenLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokenLogin";
+			};
+			name = Release;
+		};
+		B6E9A1802DC7AF2500C46518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X64H234X86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adi.mizrahi.TokenLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokenLogin;
+			};
+			name = Debug;
+		};
+		B6E9A1812DC7AF2500C46518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X64H234X86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adi.mizrahi.TokenLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokenLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6E9A1502DC7AF2300C46518 /* Build configuration list for PBXProject "TokenLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E9A1772DC7AF2500C46518 /* Debug */,
+				B6E9A1782DC7AF2500C46518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E9A1792DC7AF2500C46518 /* Build configuration list for PBXNativeTarget "TokenLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E9A17A2DC7AF2500C46518 /* Debug */,
+				B6E9A17B2DC7AF2500C46518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E9A17C2DC7AF2500C46518 /* Build configuration list for PBXNativeTarget "TokenLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E9A17D2DC7AF2500C46518 /* Debug */,
+				B6E9A17E2DC7AF2500C46518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E9A17F2DC7AF2500C46518 /* Build configuration list for PBXNativeTarget "TokenLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E9A1802DC7AF2500C46518 /* Debug */,
+				B6E9A1812DC7AF2500C46518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6E9A14D2DC7AF2300C46518 /* Project object */;
+}
